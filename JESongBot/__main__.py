@@ -11,9 +11,9 @@ pm_start_text = """
 Hey [{}](tg://user?id={}), I'm powerful  Song Downloader Bot 🎵
 
 😉 Just send me the song name you want to download.😋
-      eg:```/song saritha```
+      eg:```/song look at me```
       
-A bot by @supunma 🇱🇰
+A bot by @tujan3 🇱🇰
 """
 
 @app.on_message(filters.command("start"))
@@ -26,10 +26,10 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Channel 🔊", url="https://t.me/slbotzone"
+                        text="Our Pet Channel 🙈", url="https://t.me/TheWorldOfPets"
                     ),
                     InlineKeyboardButton(
-                        text="Dev 🔥", url="https://t.me/supunma"
+                        text="Our Music Group 🎵", url="https://t.me/ankimusicgroup"
                     )
                 ]
             ]
